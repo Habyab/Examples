@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdio.h>
 
 void    ft_putchar(char c)
 {
@@ -53,5 +54,6 @@ int     main(int argc, char **argv)
     {
         ft_putnbr(ft_atoi(argv[1]));
     }
+    printf("   Answer");
     return(write(1, "\n", 1));
 }
